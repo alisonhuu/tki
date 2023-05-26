@@ -9,6 +9,7 @@ const { data } = storeToRefs(fetchStore)
 
 <template>
     <h4>home</h4>
+    <p>test deploy</p>
     <button type="button" class="btn btn-secondary" @click="fetchInit()">fetch</button>
     <div v-if="data">
       <p>data:</p>
