@@ -1,0 +1,31 @@
+{
+  "name": "gc_tki",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.2.3",
+    "eslint-config-standard": "^17.0.0",
+    "pinia": "^2.1.1",
+    "prettier": "^2.8.8",
+    "swiper": "^9.3.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-vue": "^9.13.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2"
+  }
+}
